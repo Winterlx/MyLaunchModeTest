@@ -16,17 +16,18 @@
         android:textSize="30sp" />
 
     <Button
-        android:onClick="btn1Click"
+        android:onClick="openSingleInstanceActivity"
         android:id="@+id/btn_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="" />
+        android:text="single instance" />
 
     <Button
-        android:onClick="btn2Click"
+        android:onClick="openSecondActivity"
         android:id="@+id/btn_2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="second activity(FLAG_ACTIVITY_NEW_TASK)"/>
 
     <Button
         android:onClick="btn3Click"

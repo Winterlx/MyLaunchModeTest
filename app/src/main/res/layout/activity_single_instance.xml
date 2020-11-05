@@ -4,24 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity"
+    tools:context=".SingleInstanceActivity"
     android:orientation="vertical"
-    android:background="#33ee0000"
+    android:background="#669999ff"
     android:padding="10dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:text="This is the second activity."/>
+        android:text="This is an instance activity"
+        android:textSize="30sp"/>
 
     <Button
+        android:onClick="openThirdActivity"
+        android:id="@+id/btn_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Third Activity"
-        android:onClick="openThirdActivity"/>
-
-
-
+        android:text="third activity" />
 
 </LinearLayout>
