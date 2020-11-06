@@ -7,7 +7,7 @@
     android:background="#33ffff00"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -30,7 +30,8 @@
         android:text="second activity(FLAG_ACTIVITY_NEW_TASK)"/>
 
     <Button
-        android:onClick="btn3Click"
+        android:text="third activity"
+        android:onClick="openThirdActivity"
         android:id="@+id/btn_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
